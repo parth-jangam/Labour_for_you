@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .container{
+            border: 2px solid black;
+            margin-top: 200px;
+            margin-left: 530px;
+            width: 450px;
+            padding: 50px;
+            font-size: 25px;
+            border-radius: 20px;
+            height: 400px;
+        }
+        input{
+            margin-top: 50px;
+        }
+        h1{
+            color: red;
+            margin-left: 80px;
+        }
+        .button{
+            text-decoration: none;
+            border: solid black 2px;
+            color: black;
+            background-color: wheat;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">New proffession</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactus">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+       
+      </nav>
+    <div class="container">
+        <h1>Confirm!!</h1>
+        <form action="/workers_register/submit/change_proff/submit" method="post">
+        <input type="text" placeholder="Enter your register mobile number" name="number" style="margin-left: 20PX;">
+        <select name="profession" id="" placeholder="Enter your profession" style=" margin-top:30px;margin-left: 20px;" >
+            <option value="construction_mistri">construction mistri </option>
+            <option value="bigari">bigari</option>
+            <option value="tile_mistri">tile mistri</option>
+            <option value="breaker">breker</option>
+            <option value="welder">welder</option>
+            <option value="wireman">wireman</option>
+            <option value="pop_wala">pop_maker</option>
+            <option value="ferniture">farniture maker</option>
+            <option value="labour">labour</option>
+            <option value="decoration">decoration_events</option>
+            <option value="Water_supplier">Water supplier</option>
+            <option value="glosary_store">glosary_stores</option>
+            <option value="non_veg_stores">chikan matan shops</option>
+            <option value="pandit">pandit </option>
+            <option value="astrologist">astrologist</option>
+            <option value="pavour_block">pavour_block_wala</option>
+            <option value="plumber">plumber</option>
+            <option value="road_construction">road_construction_labour</option>
+            <option value="garbage_management">garbage_collector</option>
+
+      </select>
+      <input type="submit" value="submit" style="margin-left:100px; margin-top:15px;">
+      <a class="button" href="/old_worker" type="button">Back</a>
+    </form>
+    </div>
+</body>
+</html>

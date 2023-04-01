@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+         .button{
+            margin-left: 120px;
+            margin-top: 50px;
+        
+        }
+        .button2{
+            margin-left: 350px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .head{
+            border: solid black 2px;
+            margin-top: 200px;
+            border-radius: 20px;
+            width: 1000px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Old User</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactus">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+       
+      </nav>
+      <div class="head">
+      <div class="button">
+        <a href="/workers_register/submit/change_mo_no" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Change your Mo_no</a>
+        <a href="/workers_register/submit/change_city" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Change your City</a>
+        <a href="/workers_register/submit/change_proff" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Change your Proff</a>
+        <a href="/workers_register/submit/change_salary" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Change your salary</a>
+        
+    </div>
+    <div class="button2">
+        <a href="/old_worker/delete" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Delete Your Data</a>
+        <a href="/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Ok</a>
+    </div>
+</div>
+</body>
+</html>
